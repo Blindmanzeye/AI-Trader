@@ -15,10 +15,16 @@ Stage 4) Combine stages 1-3 and Test/Tweak AI further.
 
 In Depth. . . 
 
+*Depricated
 Stage 1) Pull and Parse Data
 - We will use IKBR's API to pull stock data (This will test my ability to call/use API's)
 - We will then Parse the data using various methods and libraries including Numpy and Pandas (This will test my ability to proccess/parse data)
 - Then, I will store the data in a file to be used for the later steps (This will test my ability to read/write to files)
+
+*Stage 1) Pull and Parse Data
+- We will use yahoo finance, specifically yfinance to pull stock data
+- We will parse data using various methods and libraries including numpy and pandas
+- Store data in a file, probably csv
 
 Stage 2) Develop Base AI
 - I will research what AI to use (This will test my research skills)
